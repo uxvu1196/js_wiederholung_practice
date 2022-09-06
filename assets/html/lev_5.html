@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <form onsubmit="return false">
+            <fieldset>
+                <legend>Multipliziere mich mit 2</legend>
+            <input type="number" name="number" id="number">
+            <button  onclick="doubleMe()">Verdoppel mich</button>
+        </fieldset>
+        </form>
+        <p id="result"></p>
+    </div>
+  
+    <div>
+        <form onsubmit="return false">
+            <fieldset>
+                <legend>Altersberechnung</legend>
+                <input type="number" name="number" id="number1" id="year" min="1900" max=2021>
+                    <button  onclick="calculate()">Berechne mein Alter</button>
+            </fieldset>
+        </form>
+        <p id="result2">In diesem Jahr 2022 bist du:</p>
+        <p id="result1"></p>
+    </div>
+
+    <div>
+        <form onsubmit="return false">
+            <fieldset>
+                <legend>Differenz aus den zwei Zahlen</legend>
+                <div>
+                    <label for="age1">Alter 1</label>
+                    <input type="number" name="number" id="numberX" min="0" max=150>
+                </div>
+                
+                <!-- <br> -->
+                <div>
+                    <label for="age2">Alter 2</label>
+                    <input type="number" name="number" id="numberY" min="0" max=150>   
+                </div>
+
+                <button  onclick="calculateTwo()">Berechne!</button>
+                <h2>Die Differenz ist:</h2>
+                <h2 id="result3">&nbsp;</h2>
+            </fieldset>
+        </form>
+        <p id="result3"></p>
+  
+    </div>
+
+    <script src="../js/lev_5.js"></script>
+</body>
+</html>
