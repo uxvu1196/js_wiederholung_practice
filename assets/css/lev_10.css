@@ -1,1 +1,20 @@
+body {
+margin: 0;
+padding-top: 10%;
+text-align: center;
+}
 
+#zero {
+    /* color: red; */
+    font-size: 2rem;
+}
+
+.styleMe{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+#demo{
+    padding: 2%;
+}
